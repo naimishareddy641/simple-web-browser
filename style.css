@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.toolbar {
+  display: flex;
+  padding: 8px;
+  background-color: #222;
+}
+
+.toolbar button {
+  margin-right: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.toolbar input {
+  flex: 1;
+  padding: 6px;
+  margin-right: 6px;
+}
+
+webview {
+  width: 100%;
+  height: calc(100vh - 50px);
+}
